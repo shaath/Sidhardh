@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35727" started-at="2018-05-09T16:34:56Z" finished-at="2018-05-09T16:35:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35727" started-at="2018-05-09T16:34:56Z" finished-at="2018-05-09T16:35:31Z">
+      <class name="testNG.EmpRegTest">
+        <test-method status="PASS" signature="OrgLaunch()[pri:0, instance:testNG.EmpRegTest@62ee68d8]" name="OrgLaunch" is-config="true" duration-ms="29421" started-at="2018-05-09T22:04:26Z" finished-at="2018-05-09T22:04:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrgLaunch -->
+        <test-method status="PASS" signature="OrgLogin()[pri:0, instance:testNG.EmpRegTest@62ee68d8]" name="OrgLogin" is-config="true" duration-ms="5036" started-at="2018-05-09T22:04:56Z" finished-at="2018-05-09T22:05:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrgLogin -->
+        <test-method status="PASS" signature="Empreg(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.EmpRegTest@62ee68d8]" name="Empreg" duration-ms="8053" started-at="2018-05-09T22:05:01Z" data-provider="data" finished-at="2018-05-09T22:05:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Venki]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ch]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emp4569]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Empreg -->
+        <test-method status="PASS" signature="Empreg(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.EmpRegTest@62ee68d8]" name="Empreg" duration-ms="9530" started-at="2018-05-09T22:05:09Z" data-provider="data" finished-at="2018-05-09T22:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vignan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ch]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emp4560]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Empreg -->
+        <test-method status="PASS" signature="Empreg(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.EmpRegTest@62ee68d8]" name="Empreg" duration-ms="7909" started-at="2018-05-09T22:05:18Z" data-provider="data" finished-at="2018-05-09T22:05:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sandeep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emp4561]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Empreg -->
+        <test-method status="PASS" signature="OrgLogout()[pri:0, instance:testNG.EmpRegTest@62ee68d8]" name="OrgLogout" is-config="true" duration-ms="5124" started-at="2018-05-09T22:05:26Z" finished-at="2018-05-09T22:05:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrgLogout -->
+        <test-method status="PASS" signature="OrgClose()[pri:0, instance:testNG.EmpRegTest@62ee68d8]" name="OrgClose" is-config="true" duration-ms="33" started-at="2018-05-09T22:05:31Z" finished-at="2018-05-09T22:05:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrgClose -->
+      </class> <!-- testNG.EmpRegTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

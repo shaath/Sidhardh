@@ -1,0 +1,23 @@
+package testNG;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+
+public class PrimusbankLogin 
+{
+	public static WebDriver driver;
+	public static String url="http://primusbank.qedgetech.com";
+	@BeforeClass
+	public void launch_Br()
+	{
+		driver=new FirefoxDriver();
+	}
+	@BeforeMethod
+	public void launch_App()
+	{
+		driver.get("url);
+	}
+
+}
